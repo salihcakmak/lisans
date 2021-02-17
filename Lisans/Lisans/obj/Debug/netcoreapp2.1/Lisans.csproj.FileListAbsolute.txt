@@ -1,0 +1,148 @@
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.deps.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.dev.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.input.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.output.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorCoreGenerate.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.genruntimeconfig.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CopyComplete
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\AddLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\UpdateLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index1.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.dev.json
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.input.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.output.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorCoreGenerate.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\AddLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index1.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\UpdateLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\RegisterUser.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\UserDetails.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CopyComplete
+C:\Users\sacak\Desktop\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.genruntimeconfig.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.runtimeconfig.dev.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.DataAccess.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorAssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.input.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.TagHelpers.output.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorCoreGenerate.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\AddLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\Index1.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Lisans\UpdateLisans.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\ChangePassword.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\RegisterUser.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\User\UserDetails.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.RazorTargetAssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.Views.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.csproj.CopyComplete
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans\obj\Debug\netcoreapp2.1\Lisans.genruntimeconfig.cache

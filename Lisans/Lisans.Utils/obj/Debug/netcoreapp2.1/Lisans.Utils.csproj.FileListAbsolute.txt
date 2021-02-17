@@ -1,0 +1,36 @@
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.deps.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CopyComplete
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CopyComplete
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Utils.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.csproj.CopyComplete
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Utils\obj\Debug\netcoreapp2.1\Lisans.Utils.pdb

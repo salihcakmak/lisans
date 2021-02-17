@@ -1,0 +1,157 @@
+﻿@model Lisans.Data.Models.LisansModel
+
+@{
+    ViewData["Title"] = "Düzenle";
+}
+
+<hr style="margin-top:30px" />
+<div class="row">
+    <div class="col-md-12">
+        <form class="was-validated" asp-action="UpdateLisans">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationLisansName" class="control-label">Okul Kodu</label>
+                    <input asp-for="SchoolCode" class="form-control is-invalid" id="validationLisansName" required />
+                    <span asp-validation-for="SchoolCode" class="text-danger"></span>
+
+                </div>
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationHardwareId" class="control-label">Okul Adı</label>
+                    <input asp-for="SchoolName" class="form-control" id="validationHardwareId" style="text-transform:uppercase" />
+                    <span asp-validation-for="SchoolName" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="row" style="margin-top:30px;">
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationHardwareId" class="control-label">Şehir</label>
+                    @Html.DropDownListFor(m => m.Province, new SelectList(ViewBag.Province, "Id", "Name"), new { @class = "custom-select" })
+                    <span asp-validation-for="Province" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationHardwareId" class="control-label">Semt</label>
+                    @Html.DropDownListFor(m => m.District, new SelectList(ViewBag.District, "Id", "Name"), new { @class = "custom-select" })
+                    <span asp-validation-for="District" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:30px">
+
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationEmail" class="control-label">E-Mail</label>
+                    <input asp-for="Email" class="form-control is-invalid" id="validationEmail" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label style="font-family:Century" class="control-label">Son Kullanma Tarihi</label>
+                    <input asp-for="ExpirationDate" class="form-control" />
+                    <span asp-validation-for="ExpirationDate" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="row" style="margin-top:30px">
+
+                <div class="col-md-6">
+                    <div id="div">
+                        <input type="checkbox" asp-for="Status" id="chk">
+                        <label id="chklbl" style="font-family:Century">Kullanım Durumu</label>
+                        <div id="warning" style="color:red"></div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <label style="font-family:Century" for="validationHardwareId" class="control-label">Hardware Numarası</label>
+                    <input asp-for="HardwareId" class="form-control" id="validationHardwareId" style="text-transform:uppercase" readonly />
+                    <span asp-validation-for="HardwareId" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:30px">
+
+                <div class="col-md-6">
+                    <label style="font-family:Century" class="control-label">Offline Ürün Anahtarı</label>
+                    <input asp-for="OfflineProductKey" class="form-control" readonly />
+                    <span asp-validation-for="OfflineProductKey" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label style="font-family:Century" class="control-label">Online Ürün Anahtarı</label>
+                    <input asp-for="OnlineProductKey" class="form-control" readonly />
+                    <span asp-validation-for="OnlineProductKey" class="text-danger"></span>
+                </div>
+
+            </div>
+
+
+
+            <div class="row" style="margin-top:30px">
+
+                <div class="col-md-6">
+                    <label style="font-family:Century" class="control-label">Son Görülme</label>
+                    <input asp-for="LastOnlineDate" class="form-control" readonly />
+                    <span asp-validation-for="LastOnlineDate" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label style="font-family:Century" class="control-label">Oluşturulma Tarihi</label>
+                    <input asp-for="CreationDate" class="form-control" readonly />
+                    <span asp-validation-for="CreationDate" class="text-danger"></span>
+                </div>
+
+            </div>
+
+
+            <div class="row" style="margin-top:20px">
+                <div class="col-md-6">
+                    <input style="font-family:Century" type="submit" value="Kaydet" class="btn btn-outline-primary" />
+                </div>
+                <div class="col-md-6 right">
+                    <a asp-action="Index" style="font-family:Century" class="btn btn-outline-dark float-right">Vazgeç</a>
+                </div>
+            </div>
+            @Html.HiddenFor(x => x.LisansId)
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#Province").change(function () {
+            $.getJSON("/Lisans/GetDistrictList", { pid: $("#Province").val() }, function (d) {
+                var row = "";
+                $("#District").empty();
+                $.each(d, function (i, v) {
+                    console.log(v.text)
+                    console.log(v.value)
+                    var a = v;
+                    row += "<option value='" + v.value + "'>" + v.text + "</option>";
+                });
+                $("#District").html(row);
+            })
+        })
+    })
+
+    $(document).ready(function () {
+        $('input[type="checkbox"]').click(function () {
+            if ($(this).is(":checked")) {
+                $('#chklbl').css('color', 'green');
+                $("#warning").html("");
+            }
+            else if ($(this).is(":not(:checked)")) {
+                $('#chklbl').css('color', 'red');
+                $("#warning").html("Aktif değil.");
+            }
+        });
+    });
+</script>

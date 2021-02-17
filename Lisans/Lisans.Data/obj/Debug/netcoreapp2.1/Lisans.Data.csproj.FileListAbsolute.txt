@@ -1,0 +1,27 @@
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.deps.json
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Yeni Lisans Projesi\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.deps.json
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\bin\Debug\netcoreapp2.1\Lisans.Data.pdb
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csprojAssemblyReference.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.csproj.CoreCompileInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfoInputs.cache
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.AssemblyInfo.cs
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.dll
+C:\Users\sacak\Desktop\Lisans\Lisans\Lisans.Data\obj\Debug\netcoreapp2.1\Lisans.Data.pdb

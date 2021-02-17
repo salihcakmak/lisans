@@ -1,0 +1,411 @@
+﻿@model IEnumerable<Lisans.Data.Dto.LisansIndexDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (Model.Count() == 0)
+{
+
+    <div class="alert alert-warning" role="alert">
+        Henüz oluşturulmuş bir lisans bulunmamaktadır. <a href="@Url.Action("AddLisans","Lisans")" class="alert-link">Lisans oluşturmak</a>  için tıklayabilirsiniz.
+    </div>
+}
+
+@{
+    int sayac = 0;
+}
+
+
+<div class="row">
+
+    @foreach (var lisansIndexDto in Model)
+    {
+        <div class="col-sm-12">
+            <div class="card" style="margin-bottom:30px">
+                <div class="card-body">
+                    <h5 class="card-title btn btn-outline-light" style="color:blueviolet;font-family:Century;border:none;" data-toggle="collapse" data-target="#@string.Concat("mainCard",sayac.ToString())" aria-expanded="false" aria-controls="@string.Concat("mainCard",sayac.ToString())">@Html.DisplayFor(modelItem => lisansIndexDto.SchoolName)</h5>
+
+                    <h5 class="card-title float-right"><span class="badge badge-pill badge-info">@lisansIndexDto.LisansList.Count()  Adet</span></h5>
+
+                    <div class="collapse" id="@string.Concat("mainCard",sayac.ToString())">
+                        @foreach (var lisansModel in lisansIndexDto.LisansList)
+                        {
+                            var tm = "#myModal" + lisansModel.LisansId;
+                            var mid = "myModal" + lisansModel.LisansId;
+                            if (lisansModel.Status == true)
+                            {
+                                <div class="card border-success" style="margin-bottom:20px">
+                                    <div class="card-body">
+
+
+
+                                        <h5 class="card-title btn btn-outline-light" style="color:black; font-family:Century;border:none;" data-toggle="collapse" data-target="#@string.Concat("childCard", lisansModel.LisansId)" aria-expanded="false" aria-controls="@string.Concat("childCard", lisansModel.LisansId)">@Html.DisplayFor(modelItem => lisansModel.HardwareId)</h5>
+
+                                        <div class="collapse" id="@string.Concat("childCard",lisansModel.LisansId)">
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Okul Kodu</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.SchoolCode)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Okul Adı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.SchoolName)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Online Ürün Anahtarı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.OnlineProductKey)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Offline Ürün Anahtarı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.OfflineProductKey)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">E-Mail</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.Email)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Son Görülme</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.LastOnlineDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Oluşturulma Tarihi</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.CreationDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Son Kullanma Tarihi</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.ExpirationDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+
+
+
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <a href="@Url.Action("UpdateLisans","Lisans",new { id = lisansModel.LisansId })" class="btn btn-outline-success float-left" style="font-family:Century;width:86.7344px;">Düzenle</a>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <button type="button" style="font-family:Century;width:86.7344px;" class="btn btn-outline-danger float-right" data-toggle="modal" data-target="@tm">
+                                                        Sil
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- Button trigger modal -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="@mid" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-sm ">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+
+                                                <h5 class="modal-title text-warning" id="staticBackdropLabel">Emin misiniz?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Bu kayıtları gerçekten silmek istiyor musunuz? Bu işlem geri alınamaz.</span></p>
+                                            </div>
+
+                                            <div class="modal-footer">
+
+                                                <button type="button" class="btn btn-outline-secondary " style="font-family:Century;width:100px;" data-dismiss="modal">Vazgeç</button>
+
+
+                                                <a href="@Url.Action("DeleteLisans","Lisans",new { id=lisansModel.LisansId})" class="btn btn-outline-danger " style="font-family:Century;width:100px;">Devam et</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="card border-danger" style="margin-bottom:20px">
+                                    <div class="card-body">
+
+
+
+                                        <h5 class="card-title btn btn-outline-light" style="color:black; font-family:Century;border:none;" data-toggle="collapse" data-target="#@string.Concat("childCard", lisansModel.LisansId)" aria-expanded="false" aria-controls="@string.Concat("childCard", lisansModel.LisansId)">@Html.DisplayFor(modelItem => lisansModel.HardwareId)</h5>
+
+                                        <div class="collapse" id="@string.Concat("childCard",lisansModel.LisansId)">
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Okul Kodu</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.SchoolCode)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Okul Adı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.SchoolName)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Online Ürün Anahtarı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.OnlineProductKey)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Offline Ürün Anahtarı</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.OfflineProductKey)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">E-Mail</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.Email)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Son Görülme</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.LastOnlineDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Oluşturulma Tarihi</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.CreationDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">Son Kullanma Tarihi</span>
+                                                        <span class="float-right" style="font:message-box bold">:</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-7" style="padding-left:0px">
+                                                    <p class="card-text">
+                                                        <span class="float-left" font-family:Century">@Html.DisplayFor(modelItem => lisansModel.ExpirationDate)</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+
+
+
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <a href="@Url.Action("UpdateLisans","Lisans",new { id = lisansModel.LisansId })" class="btn btn-outline-success float-left" style="font-family:Century;width:86.7344px;">Düzenle</a>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <button type="button" style="font-family:Century;width:86.7344px;" class="btn btn-outline-danger float-right" data-toggle="modal" data-target="@tm">
+                                                        Sil
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- Button trigger modal -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="@mid" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-sm ">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+
+                                                <h5 class="modal-title text-warning" id="staticBackdropLabel">Emin misiniz?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p><span>Bu kayıtları gerçekten silmek istiyor musunuz? Bu işlem geri alınamaz.</span></p>
+                                            </div>
+
+                                            <div class="modal-footer">
+
+                                                <button type="button" class="btn btn-outline-secondary " style="font-family:Century;width:100px;" data-dismiss="modal">Vazgeç</button>
+
+
+                                                <a href="@Url.Action("DeleteLisans","Lisans",new { id=lisansModel.LisansId})" class="btn btn-outline-danger " style="font-family:Century;width:100px;">Devam et</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+
+                        }
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        sayac++;
+    }
+</div>
+
+

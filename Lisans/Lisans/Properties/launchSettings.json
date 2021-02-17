@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49655",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Lisans": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "MYSQL_URI": "server=localhost;port=3306;database=lisansdb;user=root;password=root",
+        "MAIL_PORT": "587",
+        "MAIL_PASSWORD": "Salih@55!",
+        "MAIL_USER": "salihcakmak050@gmail.com",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MAIL_HOST": "smtp.gmail.com"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}

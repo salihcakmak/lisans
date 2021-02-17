@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans\\Lisans.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\Lisans.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\Lisans.DataAccess.csproj",
+        "projectName": "Lisans.DataAccess",
+        "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\Lisans.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\sacak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sacak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj",
+        "projectName": "Lisans.Data",
+        "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj",
+        "packagesPath": "C:\\Users\\sacak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sacak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\Lisans.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\Lisans.Utils.csproj",
+        "projectName": "Lisans.Utils",
+        "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\Lisans.Utils.csproj",
+        "packagesPath": "C:\\Users\\sacak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sacak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj": {
+                "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans\\Lisans.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans\\Lisans.csproj",
+        "projectName": "Lisans",
+        "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans\\Lisans.csproj",
+        "packagesPath": "C:\\Users\\sacak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sacak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\Lisans.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.DataAccess\\Lisans.DataAccess.csproj"
+              },
+              "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj": {
+                "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Data\\Lisans.Data.csproj"
+              },
+              "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\Lisans.Utils.csproj": {
+                "projectPath": "C:\\Users\\sacak\\Desktop\\Lisans\\Lisans\\Lisans.Utils\\Lisans.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
